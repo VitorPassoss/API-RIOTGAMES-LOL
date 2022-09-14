@@ -106,7 +106,8 @@ function viewData(nomePlayer,elomain,elorank,mainwins,mainloses,eloflex,flexrank
      EloUser.innerHTML = `
                     <h1>Ranqueada Solo/Duo : <span style="color:#FF0043;">${eloMain}</span></h1>
                     <h1>Divisão :<span style="color:#FF0043;">${eloRank}</span></h1>
-                    <h1>Ranqueada Flex :<span style="color:#FF0043;"> ${flexRank}</span></h1>
+                    <h1>Ranqueada Flex :<span style="color:#FF0043;"> ${eloFlex}</span></h1>
+                    <h1>Divisão :<span style="color:#FF0043;">${flexRank}</span></h1>
                     <h1>Vitorias Ranqueadas Solo/duo :  ${mainWins}</h1>
                     <h1>Derrotas Ranqueadas Solo/duo :  ${mainLoses}</h1>
      `
