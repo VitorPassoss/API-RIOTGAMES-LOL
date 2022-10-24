@@ -13,7 +13,7 @@ function captureValue(){
 function pesquisarUser(valor){
     
     let inputName = valor
-    fetch(`https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${inputName}?api_key=RGAPI-19350159-88e1-41be-84ba-54d56b3c92ca
+    fetch(`https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${inputName}?api_key=RGAPI-af5184dc-5884-441c-9a14-5be6c5ab3b82
     `)
     .then(response => {
        return  response.json()
@@ -43,7 +43,7 @@ function dataUser(dataPlayer) {
 
 function SearchInfo(idSummener){
    let idpoint = idSummener 
-   fetch(`https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/${idpoint}?api_key=RGAPI-19350159-88e1-41be-84ba-54d56b3c92ca`)
+   fetch(`https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/${idpoint}?api_key=RGAPI-af5184dc-5884-441c-9a14-5be6c5ab3b82`)
    .then(response => {
      
       return response.json()
